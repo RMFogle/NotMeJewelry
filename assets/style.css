@@ -1,18 +1,36 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background: url(./images/backgroungall.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+h1, h5 {
+    font-family: 'Clicker Script', cursive;
+    font-size: 150px ;
+    text-align: center;
+}
+
 .sidenav {
     width: 160px;
     position: fixed; 
     z-index: 1;
     top: 0; 
     left: 0;
-    background-color: #111;
+    background-color: whitesmoke;
     overflow-x: hidden; 
     padding-top: 20px;
 }
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
+    height: 35px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    color: black;
     display: block;
 }
+
