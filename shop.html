@@ -5,15 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--open graph tags for facebook Graph API for sharing-->
+    <meta property="og:url"                content="https://drew26.github.io/NotMe/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Not Me A Non Profit" />
+    <meta property="og:description"        content="Selling unique jewelry" />
+    <meta property="og:image"              content="" />
+    <!--google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Raleway:300" rel="stylesheet">
+   <!--bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--style.css-->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
   <title>NotMe...</title>
 </head>
 
 <body>
-  
+   <!--fb app events div and script tags must come after first body tag-->
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=2329018290721110&autoLogAppEvents=1"></script>
+
 <!--Create responsive banner with header text for Shop-->
 
 <!--Create NavBar as an aside-->
@@ -48,6 +60,12 @@
         </div>
         </div>
         <div id='collection-component-a8df700adec'></div>
+
+  <!--fb share button div class-->
+  <div class="fb-share-button" data-href="https://drew26.github.io/NotMe/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+  <!--fb share button iframe for window-->
+  <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&layout=button&size=large&appId=2329018290721110&width=73&height=28" width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
   <!--Create a container to hold images/products from shopify-->
 
 <!--Inside container display responsive images for products: necklaces, earrings, braclets from shopify-->
@@ -59,12 +77,19 @@
     </div>
   </nav>
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+<!--facebook SDK script tag-->
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+<!--facebook javascript file-->
+<script src="assets/javascript/Facebook.js"></script>
+<!--Script for the Shopify-->
 <script type="text/javascript" src="assets/javascript/Shopify.js"></script>
+<!--Script tags to load and deploy js tools,libraries, and sheets-->
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
 <script src="js/bootstrap.min.js"></script>
 
-</body>
 
+</body>
 </html>
