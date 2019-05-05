@@ -15,3 +15,18 @@
 
 
   //pseudo-code steps needed for any event listening or to 'get' user input data for name, email, phone#. 
+
+  // Global variables for function events for grabing user input
+
+
+  // Store user input into global variable using input .val().trim() 
+
+  // Create local object for holding contact form data for name, email, phone#
+
+  // Push train data to firebase database
+
+
+  // Consolelog everything local ojbect.key name
+
+  // Clear all text-boxes with input .val("")
+  
