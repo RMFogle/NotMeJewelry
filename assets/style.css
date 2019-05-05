@@ -25,6 +25,8 @@ h1, h5 {
     background-color: whitesmoke;
     overflow-x: hidden; 
     padding-top: 20px;
+    color: black;
+
 }
 
 .sidenav a {
@@ -33,5 +35,9 @@ h1, h5 {
     text-decoration: none;
     color: black;
     display: block;
+}
+
+.collections {
+    background-color: aliceblue
 }
 
