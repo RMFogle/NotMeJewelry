@@ -15,7 +15,8 @@
 <body>
 
   <!--Create responsive banner with header text for Contact-->
-
+  
+  
 
   <!--Create NavBar as an aside-->
   <!--NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.-->
@@ -51,9 +52,44 @@
   
 
   <!--Create a container to hold main contact info-->
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6 email align-content-center">
+      Please email us with any questions or comments
+      <a href="mailto:notme.jewelry@gmail.com">notme.jewelry@email.com</a>
+    </div>
+  </div>
+
+  <br>
 
   <!--Inside main create text for contact info: email-->
-
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <div class="card align-content-lg-center">
+        <div class="card-body">
+          <h4 class="card-title">Sign Up for our Newsletter</h4>
+          <p class="card-text">Receive email and text alerts regarding upcoming events.</p>
+          <form>
+            <div class="form-group">
+              <label for="inputName4">Name</label>
+              <input type="Name" class="form-control" id="inputName4" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="inputPhoneNumber">Phone Number</label>
+              <input type="text" class="form-control" id="inputPhoneNumber" placeholder="555-555-5555">
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
   <!--below contact info create link to facebook page-->
 
   <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
@@ -72,7 +108,7 @@
   <!--Script tags to load and deploy js tools,libraries, and sheets-->
   <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
   <script src="js/bootstrap.min.js"></script>
-  
+
 </body>
 
 </html>
