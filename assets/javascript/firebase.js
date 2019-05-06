@@ -13,10 +13,17 @@
 
   var database = firebase.database(); 
 
-
   //pseudo-code steps needed for any event listening or to 'get' user input data for name, email, phone#. 
 
   // Global variables for function events for grabing user input
+  var name;
+  var email;
+  var phoneNumber;
+
+  //Code click event for submit button
+  $("#news-submit").on("click", function(event){
+    event.preventDefault();
+  
 
 
   // Store user input into global variable using input .val().trim() 
@@ -30,3 +37,4 @@
 
   // Clear all text-boxes with input .val("")
   
+})
