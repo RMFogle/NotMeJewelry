@@ -45,3 +45,7 @@ h1, h5 {
     background-color: aliceblue
 }
 
+a {
+    word-wrap: break-word;
+}
+
