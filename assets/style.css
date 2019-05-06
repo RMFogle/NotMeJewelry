@@ -45,6 +45,11 @@ h1, h5 {
     background-color: aliceblue;
 }
 
+
+a {
+    word-wrap: break-word;
+}
+
 #footer {
     border-top: 5px solid rgba(211, 211, 211, 0.714);
     height: 60px;
@@ -61,3 +66,4 @@ h1, h5 {
    border-bottom: 3px solid rgba(211, 211, 211, 0.714);
    height: 90px;
 }
+
