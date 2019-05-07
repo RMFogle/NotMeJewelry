@@ -107,7 +107,13 @@ a {
 
   }
 
+  .emailContact {
+      margin-top: 150px;
+  }
 
+  .contactForm {
+      margin-bottom: 100px;
+  }
 /*.sidenav {
     width: 160px;
     position: fixed; 
