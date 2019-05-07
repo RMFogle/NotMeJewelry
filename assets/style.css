@@ -18,6 +18,7 @@ h1, h5 {
 
 .collections {
     background-color: aliceblue;
+    padding-top: 60px; 
 }
 
 .email {
@@ -106,6 +107,11 @@ a {
     border-bottom-left-radius: 25px;
 
   }
+
+#shop {
+    margin-top: 160px; 
+    padding-top: 20px; 
+}
 
 
 /*.sidenav {
