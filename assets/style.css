@@ -56,14 +56,14 @@ a {
     border-radius:5px;
 }
 
-#main {
+#main, .carousel{
     background:#F8F9FA; 
     width: 100%;
     padding: 30px;
     margin: 160px auto;
     border: 1px solid #dddddd;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     line-height: 40px;
 }
 
@@ -77,6 +77,19 @@ a {
 #main-image {
     height: -webkit-fill-available;
 }
+
+.carousel {
+    padding: 10px;
+    line-height: 0px;
+}
+    
+.carousel-inner {
+    height: 500px; 
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+  }
+
 
 /*.sidenav {
     width: 160px;

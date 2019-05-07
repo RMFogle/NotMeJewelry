@@ -20,11 +20,10 @@
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
 
   <title>NotMe...</title>
-
-
 </head>
 
 <body>
+
   <!--fb app events div and script tags must come after first body tag-->
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
@@ -33,16 +32,21 @@
 
   <!--Create NavBar-->
   <!--NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id=header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="header">
     <a class="navbar-brand" href="./index.html">Not Me <img src="./assets/images/necklace.png" style="width: 25px;"
         alt="necklace image"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+<<<<<<< HEAD
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="navbar-nav ml-auto text-center" id="nav-collapse">
+=======
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link" href="./index.html">Home</a>
+>>>>>>> master
         <a class="nav item nav-link active" href="./gallery.html">Gallery<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="./aboutMe.html">About Me</a>
         <a class="nav-item nav-link" href="./contact.html">Contact</a>
@@ -53,49 +57,7 @@
     </div>
   </nav>
 
-
-
-
-
-  <!--Create responsive banner with header-->
-  <!-- <div class="jumbotron jumbotron-fluid fixed-top">
-    <div class="container">
-      <h1>Not Me</h1>
-      <p class="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.
-      </p>
-    </div>
-  </div>-->
-
-
-  <!--Create NavBar as an aside
-  NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.
-  <div class="container">
-    <div class="row">
-      <div class="col-3">
-        <ul class="nav nav-fill flex-column sidenav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./aboutMe.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./givingBack.html">Giving Back</a>
-          </li>
-          Shop link. This should have drop downs for 4 categories dynamically created in js
-          <li class="nav-item">
-            <a class="nav-link" href="./shop.html">Shop</a>
-          </li>
-        </ul>
-      </div>-->
-
-
+  
   <!--Create a container to hold gallery/slideshow images-->
   <!--Inside container create responsive image elements that are in a slideshow-->
   <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
@@ -136,7 +98,7 @@
     width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
     allow="encrypted-media"></iframe>
 
-  <br><br><br><br><br><br><br><br><br><br><br>
+ 
   <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
   <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
     <div class="navbar-nav mx-auto">
