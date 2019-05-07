@@ -108,28 +108,18 @@ a {
 
   }
 
+
 #shop {
     margin-top: 160px; 
     padding-top: 20px; 
 }
 
 
-/*.sidenav {
-    width: 160px;
-    position: fixed; 
-    z-index: 1;
-    top: 400px; 
-    left: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden; 
-    padding-top: 20px;
-    color: black;
-}
+  .emailContact {
+      margin-top: 150px;
+  }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    height: 35px;
-    text-decoration: none;
-    color: black;
-    display: block;
-}*/
+
+  .contactForm {
+      margin-bottom: 100px;
+  }
