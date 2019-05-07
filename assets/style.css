@@ -56,7 +56,7 @@ a {
     border-radius:5px;
 }
 
-#main {
+#main, .carousel{
     background:#F8F9FA; 
     width: 100%;
     padding: 30px;
@@ -77,6 +77,16 @@ a {
 #main-image {
     height: -webkit-fill-available;
 }
+
+.carousel {
+    padding: 10px;
+    line-height: 0px;
+}
+    
+.carousel-inner {
+    height: 500px; 
+  }
+
 
 /*.sidenav {
     width: 160px;
