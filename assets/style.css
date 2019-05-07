@@ -62,8 +62,8 @@ a {
     padding: 30px;
     margin: 160px auto;
     border: 1px solid #dddddd;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     line-height: 40px;
 }
 
@@ -85,6 +85,9 @@ a {
     
 .carousel-inner {
     height: 500px; 
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
   }
 
 
