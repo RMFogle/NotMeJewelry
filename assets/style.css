@@ -65,8 +65,25 @@ a {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     line-height: 40px;
+    
 }
 
+#mainGivingBack{
+    background:#F8F9FA; 
+    width: 100%;
+    padding: 30px;
+    margin: 160px auto;
+    border: 1px solid #dddddd;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}
+
+#hostParty{
+    margin-bottom: 40px;
+}
 #main-header {
     border-bottom: solid 5px rgb(187, 117, 43);
     border-width: thin;
