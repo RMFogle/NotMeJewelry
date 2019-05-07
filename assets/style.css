@@ -6,35 +6,14 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
-
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 h1, h5 {
     font-family: 'Clicker Script', cursive;
     font-size: 150px ;
     text-align: center;
-}
-
-.sidenav {
-    width: 160px;
-    position: fixed; 
-    z-index: 1;
-    top: 400px; 
-    left: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden; 
-    padding-top: 20px;
-    color: black;
-
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    height: 35px;
-    text-decoration: none;
-    color: black;
-    display: block;
 }
 
 .collections {
@@ -56,14 +35,65 @@ a {
     font-family: 'Clicker Script', cursive;
     font-size: 18px; 
 }
+
+#header {
+   border-bottom: 3px solid rgba(211, 211, 211, 0.714);
+   height: 90px;
+   font-size: 18px;
+   width:100%;
+   z-index:10;
+   border-bottom-left-radius:7px;
+   border-bottom-right-radius:7px;
+}
 .navbar-brand {
     font-family: 'Clicker Script', cursive;
     font-size: 50px;
     margin-left: 10px;
 }
 
-#header {
-   border-bottom: 3px solid rgba(211, 211, 211, 0.714);
-   height: 90px;
+#nav-collapse { 
+    background:#F8F9FA;
+    border-radius:5px;
 }
 
+#main {
+    background:#F8F9FA; 
+    width: 100%;
+    padding: 30px;
+    margin: 160px auto;
+    border: 1px solid #dddddd;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    line-height: 40px;
+}
+
+#main-header {
+    border-bottom: solid 5px rgb(187, 117, 43);
+    border-width: thin;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#main-image {
+    height: -webkit-fill-available;
+}
+
+/*.sidenav {
+    width: 160px;
+    position: fixed; 
+    z-index: 1;
+    top: 400px; 
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    color: black;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}*/

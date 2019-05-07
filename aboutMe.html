@@ -14,59 +14,72 @@
 
 <body>
 
-
-  <!--Create responsive banner with header text for About Me-->
-
-  <!--Create NavBar as an aside-->
+  <!--Create NavBar-->
   <!--NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.-->
-  <!--Nav bar (see if we can center vertically on page with bootstrap)-->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <ul class="nav nav-fill mx-auto flex-column sidenav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./aboutMe.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./givingBack.html">Giving Back</a>
-          </li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="header">
+    <a class="navbar-brand" href="./index.html">Not Me <img src="./assets/images/necklace.png" style="width: 25px;"
+        alt="necklace image"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="navbar-nav ml-auto text-center" id="nav-collapse">
+        <a class="nav item nav-link" href="./gallery.html">Gallery</a>
+        <a class="nav-item nav-link active" href="./aboutMe.html">About Me<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+        <a class="nav-item nav-link" href="./givingBack.html">Giving Back</a>
+        <!--Shop link. This should have drop downs for 4 categories dynamically created in js-->
+        <a class="nav-item nav-link" href="./shop.html">Shop</a>
+      </div>
+    </div>
+  </nav>
 
-          <!--Shop link. This should have drop downs for 4 categories dynamically created in js-->
-          <li class="nav-item">
-            <a class="nav-link" href="./shop.html">Shop</a>
-          </li>
-        </ul>
+
+  <!--this is the main content-->
+  <!--Inside container create responsive image element-->
+  <!--Inside container create <p> to hold bio text-->
+  <div class="container" id="main">
+    <div class="row" id="main-header">
+      <div class="col">
+        <h2>About Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5"><img
+          src="./assets/images/happy-woman-choosing-pendant-jewelry-store-sale-consumerism-shopping-people-concept-trying-55454198.jpg"
+          class="img-fluid" id="main-image" alt="About Me"></div>
+      <div class="col-md-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+          porttitor condimentum.
+          Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla
+          pharetra. Vestibulum bibendum consectetur euismod.
+          Proin commodo purus vitae sollicitudin consectetur.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col">
+        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+          eros iaculis, pulvinar quam eget, egestas mauris.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col">
+        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et
+          mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       </div>
     </div>
   </div>
 
-  <!--Create a container to hold main bio image and bio text-->
 
-  <!--Inside container create responsive image element-->
-
-  <!--Inside container create <p> to hold bio text-->
-  
-  
-    <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
-  <nav class="navbar fixed-bottom navbar-light bg-light">
+  <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
+  <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
     <div class="navbar-nav mx-auto">
       <p class="text-center">Copyright &copy; 2019</p>
     </div>
   </nav>
 
 
-  <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
-  
-  
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
   <!--facebook SDK script tag-->
@@ -75,6 +88,12 @@
   <script src="assets/javascript/Facebook.js"></script>
   <!--Script tags to load and deploy js tools,libraries, and sheets-->
   <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
 
 </body>
