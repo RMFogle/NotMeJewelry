@@ -5,52 +5,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--open graph tags for facebook Graph API for sharing-->
-    <meta property="og:url"                content="https://drew26.github.io/NotMe/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Not Me A Non Profit" />
-    <meta property="og:description"        content="Selling unique jewelry" />
-    <meta property="og:image"              content="" />
-    <!--google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Raleway:300" rel="stylesheet">
-   <!--bootstrap-->
+  <!--open graph tags for facebook Graph API for sharing-->
+  <meta property="og:url" content="https://drew26.github.io/NotMe/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Not Me A Non Profit" />
+  <meta property="og:description" content="Selling unique jewelry" />
+  <meta property="og:image" content="" />
+  
+  <!--bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Raleway:300" rel="stylesheet">
   <!--style.css-->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
   <title>NotMe...</title>
 </head>
 
 <body>
-   <!--fb app events div and script tags must come after first body tag-->
-   <div id="fb-root"></div>
-   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=2329018290721110&autoLogAppEvents=1"></script>
+  <!--fb app events div and script tags must come after first body tag-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=2329018290721110&autoLogAppEvents=1"></script>
 
 
- <!--NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.-->
- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="header">
-  <a class="navbar-brand" href="./index.html">Not Me <img src="./assets/images/necklace.png" style="width: 25px;"
-      alt="necklace image"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarResponsive">
-    <div class="navbar-nav ml-auto text-center" id="nav-collapse">
+  <!--Create NavBar-->
+  <!--NavBar includes buttons for: Home. Gallery. About Me. Contact. Giving Back. Shop.-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="header">
+    <a class="navbar-brand" href="./index.html">Not Me <img src="./assets/images/necklace.png" style="width: 25px;"
+        alt="necklace image"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="navbar-nav ml-auto text-center" id="nav-collapse">
         <a class="nav-item nav-link" href="./index.html">Home</a>
-      <a class="nav item nav-link" href="./gallery.html">Gallery</a>
-      <a class="nav-item nav-link" href="./aboutMe.html">About Me</a>
-      <a class="nav-item nav-link" href="./contact.html">Contact</a>
-      <a class="nav-item nav-link" href="./givingBack.html">Giving Back</a>
-      <a class="nav-item nav-link active" href="./shop.html">Shop<span class="sr-only">(current)</span></a>
+        <a class="nav item nav-link" href="./gallery.html">Gallery</a>
+        <a class="nav-item nav-link" href="./aboutMe.html">About Me</a>
+        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+        <a class="nav-item nav-link" href="./givingBack.html">Giving Back</a>
+        <a class="nav-item nav-link active" href="./shop.html">Shop<span class="sr-only">(current)</span></a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
   <!--Create a container to hold images/products from shopify-->
   <div class="container">
-      <div class="row" id="shop">
+    <div class="row" id="shop">
       <wrapper class="collections col">
         <div id='collection-component-c41a8f7fcb8'></div>
       </wrapper>
@@ -58,34 +61,43 @@
 
 
 
-  <!--fb share button div class / commented out for now 5/7/2019-->
-  <!-- <div class="fb-share-button" data-href="https://drew26.github.io/NotMe/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> -->
-  <!--fb share button iframe for window-->
-  <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&layout=button&size=large&appId=2329018290721110&width=73&height=28" width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <!--fb share button div class / commented out for now 5/7/2019-->
+    <!-- <div class="fb-share-button" data-href="https://drew26.github.io/NotMe/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> -->
+    <!--fb share button iframe for window-->
+    <iframe
+      src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdrew26.github.io%2FNotMe%2F&layout=button&size=large&appId=2329018290721110&width=73&height=28"
+      width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+      allow="encrypted-media"></iframe>
 
 
-  <!--Inside container display responsive images for products: necklaces, earrings, braclets from shopify-->
-<!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
-<nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
-  <div class="navbar-nav mx-auto">
-    <p class="text-center">Copyright &copy; 2019</p>
-  </div>
-</nav>
+    <!--Inside container display responsive images for products: necklaces, earrings, braclets from shopify-->
+    <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
+    <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
+      <div class="navbar-nav mx-auto">
+        <p class="text-center">Copyright &copy; 2019</p>
+      </div>
+    </nav>
 
 
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
-<!--facebook SDK script tag-->
-<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
-<!--facebook javascript file-->
-<script src="assets/javascript/Facebook.js"></script>
-<!--Script for the Shopify-->
-<script type="text/javascript" src="assets/javascript/Shopify.js"></script>
-<!--Script tags to load and deploy js tools,libraries, and sheets-->
-<script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
-
-
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
+    <!--facebook SDK script tag-->
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <!--facebook javascript file-->
+    <script src="assets/javascript/Facebook.js"></script>
+    <!--Script for the Shopify-->
+    <!--Script tags to load and deploy js tools,libraries, and sheets-->
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/Shopify.js"></script>
+    
 
 </body>
+
 </html>
