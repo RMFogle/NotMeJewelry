@@ -135,3 +135,23 @@ a {
       margin-bottom: 160px; 
   }
 
+#homeCard {
+      margin-top: 50px;
+      margin-bottom: 10px;
+      height: 250px;
+  }
+
+  #homeNav {
+      margin-bottom: 140px;
+      
+  }
+
+  .nav {
+      color: black;
+  }
+
+  .card-img-top {
+      height: 200px;
+  }
+
+
