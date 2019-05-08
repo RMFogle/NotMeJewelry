@@ -13,56 +13,55 @@
 </head>
 
 <body>
-  
+
 
   <!--Create bootstrap container-->
   <div class="container">
 
     <!-- create jumbotron for header-->
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
+    <div class="card" id= "homeCard">
+      <img src="./assets/images/chocolates-coffee-cup-1289897.jpg" class="card-img-top" alt="Not Me">
+      <div class="card-img-overlay">
         <h1 class="card-title">Not Me</h1>
-        <p class="card-text text-center">Seek the good of others through handmade jewelry</p>
+        <p class="card-text text-center">"Seek the good of others through handmade jewelry"</p>
       </div>
     </div>
 
     <!--Nav bar (see if we can center vertically on page with bootstrap)-->
-    <div class="container">
+    <div class="container font-weight-bold" id= "homeNav">
       <div class="col">
         <div class="row">
           <ul class="nav nav-fill mx-auto flex-column justify-content-center text-light">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link text-dark" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
+              <a class="nav-link text-dark" href="./gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./aboutMe.html">About Me</a>
+              <a class="nav-link text-dark" href="./aboutMe.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link text-dark" href="./contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./givingBack.html">Giving Back</a>
+              <a class="nav-link text-dark" href="./givingBack.html">Giving Back</a>
             </li>
-            <!--Shop link. This should have drop downs for 4 categories dynamically created in js-->
             <li class="nav-item">
-              <a class="nav-link" href="./shop.html">Shop</a>
+              <a class="nav-link text-dark" href="./shop.html">Shop</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
- 
 
-   <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
-  <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
-    <div class="navbar-nav mx-auto">
-      <p class="text-center">Copyright &copy; 2019</p>
-    </div>
-  </nav>
+
+    <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
+    <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
+      <div class="navbar-nav mx-auto">
+        <p class="text-center">Copyright &copy; 2019</p>
+      </div>
+    </nav>
 
   </div>
 
@@ -78,4 +77,5 @@
 
 
 </body>
+
 </html>
