@@ -99,6 +99,7 @@ a {
 .carousel {
     padding: 10px;
     line-height: 0px;
+    margin-bottom: 10px; 
 }
     
 .carousel-inner {
@@ -112,6 +113,7 @@ a {
 #shop {
     margin-top: 160px; 
     padding-top: 20px; 
+    margin-bottom: 10px; 
 }
 
 
@@ -124,6 +126,12 @@ a {
       margin-bottom: 100px;
   }
 
+
   #exampleModalLabel {
       font-size: 24px;
   }
+
+  iframe {
+      margin-bottom: 160px; 
+  }
+
