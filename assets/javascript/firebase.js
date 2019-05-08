@@ -47,9 +47,17 @@ $("#news-submit").on("click", function(event) {
   console.log(customerInfo.Email);
   console.log(customerInfo.PhoneNumber);
 
-  // create a model for you have been successfully added to our newsletter.
+  //alert
+  //("Thanks for subscribing");
+  // create a modal for you have been successfully added to our newsletter.
+
+  $('#myModal').modal('show');
 
   // Clear all text-boxes with input .val("")
+  //fianlly, we make sure our form is cleared
+  $("#inputName").val("");
+  $("#inputEmail").val("");
+  $("#inputPhoneNumber").val("");
   
 
 }); 
