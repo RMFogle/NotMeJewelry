@@ -123,3 +123,7 @@ a {
   .contactForm {
       margin-bottom: 100px;
   }
+
+  #exampleModalLabel {
+      font-size: 24px;
+  }
