@@ -26,7 +26,7 @@ h1, h5 {
 }
 
 
-a {
+a, .card {
     word-wrap: break-word;
 }
 
@@ -139,8 +139,17 @@ a {
       margin-top: 50px;
       margin-bottom: 10px;
       height: 250px;
+      
+  }
+  
+  .card {
+      overflow: hidden;
   }
 
+  .card-text {
+    word-wrap: break-word;
+
+  }
   #homeNav {
       margin-bottom: 140px;
       
