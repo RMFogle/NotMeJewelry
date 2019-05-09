@@ -59,7 +59,7 @@ a, .card {
 
 #main, .carousel{
     background:#F8F9FA; 
-    width: 100%;
+    width: 550px;
     padding: 30px;
     margin: 160px auto;
     border: 1px solid #dddddd;
@@ -103,11 +103,11 @@ a, .card {
 }
     
 .carousel-inner {
-    height: 500px; 
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+  
+border-top-right-radius: 25px;
+border-bottom-left-radius: 25px; 
 
-  }
+}
 
 
 #shop {
@@ -163,4 +163,5 @@ a, .card {
       height: 200px;
   }
 
+  
 
