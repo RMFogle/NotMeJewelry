@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Raleway:300" rel="stylesheet">
+  <!--MD-bootstrap-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
+  <!--bootstrap-->-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--google fonts-->-->
+  <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Raleway:300" rel="stylesheet">
+  <!--style.css-->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
   <title>NotMe...</title>
 </head>
@@ -19,7 +24,7 @@
   <div class="container">
 
     <!-- create jumbotron for header-->
-    <div class="card" id= "homeCard">
+    <div class="card" id="homeCard">
       <img src="./assets/images/chocolates-coffee-cup-1289897.jpg" class="card-img-top" alt="Not Me">
       <div class="card-img-overlay">
         <h1 class="card-title">Not Me</h1>
@@ -28,10 +33,10 @@
     </div>
 
     <!--Nav bar (see if we can center vertically on page with bootstrap)-->
-    <div class="container font-weight-bold" id= "homeNav">
+    <div class="container font-weight-bold" id="homeNav">
       <div class="col">
-        <div class="row">
-          <ul class="nav nav-fill mx-auto flex-column justify-content-center text-light">
+        <div class="row" id="homenavlist">
+          <ul class="nav nav-fill mx-auto flex-column justify-content-center text-light animated bounceInDown">
             <li class="nav-item">
               <a class="nav-link text-dark" href="./index.html">Home</a>
             </li>
@@ -57,7 +62,7 @@
 
 
     <!--Create footer to hold social media links as icon buttons and any other contact info or nav info-->
-    <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
+    <nav class="navbar navbar-light bg-light" id="footer">
       <div class="navbar-nav mx-auto">
         <p class="text-center">Copyright &copy; 2019</p>
       </div>
@@ -71,9 +76,18 @@
   <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
   <!--facebook javascript file-->
   <script src="assets/javascript/Facebook.js"></script>
-  <!--Script tags to load and deploy js tools,libraries, and sheets-->
+  <!--jQuery-->
   <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
-  <script src="js/bootstrap.min.js"></script>
+  <!--bootstrap tooltips-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!--bootstrap core javascript-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
 
 
 </body>
