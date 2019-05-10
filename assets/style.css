@@ -35,6 +35,10 @@ a, .card {
     height: 60px;
     font-family: 'Clicker Script', cursive;
     font-size: 18px; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 #header {
@@ -161,6 +165,13 @@ border-bottom-left-radius: 25px;
 
   .card-img-top {
       height: 200px;
+  }
+  
+  #homenavlist {
+      font-size: 25px;
+      background:rgba(248, 249, 250, 0.356);
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
   }
 
   
