@@ -177,5 +177,6 @@ width: auto;
       font-family: 'Clicker Script', cursive;
   }
 
-  
-
+  .shopify-buy__cart-toggle {
+      visibility: show;
+  }
