@@ -104,13 +104,14 @@ a, .card {
     padding: 10px;
     line-height: 0px;
     margin-bottom: 10px; 
-    width:550px
+    width: auto;
 }
     
 .carousel-inner {
   
 border-top-right-radius: 25px;
 border-bottom-left-radius: 25px; 
+width: auto;
 
 }
 
@@ -169,10 +170,11 @@ border-bottom-left-radius: 25px;
   }
   
   #homenavlist {
-      font-size: 25px;
+      font-size: 35px;
       background:rgba(248, 249, 250, 0.356);
       border-top-right-radius: 15px;
       border-bottom-left-radius: 15px;
+      font-family: 'Clicker Script', cursive;
   }
 
   .shopify-buy__cart-toggle {
