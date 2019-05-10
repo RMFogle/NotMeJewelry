@@ -63,7 +63,7 @@ a, .card {
 
 #main, .carousel{
     background:#F8F9FA; 
-    width: 550px;
+    width: 100%;
     padding: 30px;
     margin: 160px auto;
     border: 1px solid #dddddd;
@@ -104,6 +104,7 @@ a, .card {
     padding: 10px;
     line-height: 0px;
     margin-bottom: 10px; 
+    width:550px
 }
     
 .carousel-inner {
@@ -174,5 +175,6 @@ border-bottom-left-radius: 25px;
       border-bottom-left-radius: 15px;
   }
 
-  
-
+  .shopify-buy__cart-toggle {
+      visibility: show;
+  }
