@@ -1,2 +1,3 @@
 # NotMe
-Not_Me_eCommerce
+Website: https://rmfogle.github.io/NotMeJewelry/
+
